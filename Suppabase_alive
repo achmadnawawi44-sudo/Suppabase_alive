@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Ping Supabase
         run: |
-          curl -X GET "https://${{ secrets.SUPABASE_PROJECT_REF }}.supabase.co/rest/v1/" \
-          -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+          curl -X GET "https://${{ secrets.plrfinzrxysakgrsjcvg }}.supabase.co/rest/v1/" \
+          -H "apikey: ${{ secrets.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBscmZpbnpyeHlzYWtncnNqY3ZnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY0NzcwNzMsImV4cCI6MjA3MjA1MzA3M30.Szlg0Y-y_rGa1QJYGpUoi3h-7FjGH1GjVnAHMw3nQ90 }}" \
           -H "Content-Type: application/json" \
           --fail --silent --show-error
